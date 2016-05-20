@@ -1,0 +1,346 @@
+body{
+	margin: 0;
+	background-color: #fff;
+}
+
+.intro{
+	position: relative;
+	width: 999px;
+	height: 100px;
+	background-color: transparent;
+	margin: 0px auto;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.intro h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24pt;
+	font-weight: 800;
+	color: #333;
+	background-color: transparent;
+	padding: 5px 15px;
+	border: 3px solid #333;
+}
+
+.intro h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #333;
+	text-decoration: none;
+	background-color: transparent;
+	padding: 5px 15px;
+	border: 2px solid #333;
+	margin-left: calc(50% - 80px);
+}
+
+.button{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	background-color: #333;
+	padding: 5px 15px;
+	border: 2px solid #333;
+	margin-left: 0px;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #49ab81;
+	border-left: 0;
+	padding-left: 17px;
+}
+
+.b2{
+	display: none;
+}
+
+/* -------------------------------------------------------------- TEAM --- */
+#team{
+	width: 100%;
+	height: 640px;
+	background-color: transparent;
+}
+
+.container{
+	width: 999px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: no-wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin: 30px auto 0px auto;
+}
+
+.member{
+	position: relative;
+	width: 333px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center	;
+	align-items: center;
+}
+
+.pic{
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	border-radius: 75px;
+}
+
+.name{
+	width: 250px;
+	height: auto;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+	font-size: 9pt;
+	color: #333;
+	line-height: 2;
+}
+
+.name i{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+	font-style: normal;
+	color: #333;
+	background-color: #fff;
+	padding: 4px;
+	border: 1px solid #333;
+}
+
+.name b{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-weight: 800;
+	font-style: normal;
+	color: #fff;
+	background-color: #333;
+	padding: 5px;
+}
+
+.bio{
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	background-color: transparent;
+	margin-top: 10px;
+	text-align: justify;
+	font-family: 'Merriweather', serif;
+	font-size: 9pt;
+	color: #333;
+	line-height: 1.5;
+	overflow: auto;
+}
+
+.borderstuff{
+	position: absolute;
+	top: calc(50% - 150px);
+	width: 100%;
+	height: 300px;
+	background-color: transparent;
+	z-index: -1;
+	border-right: 3px dotted #555;
+	border-left: 3px dotted #555;
+}
+
+/* -------------------------------------------------------------- DROPDOWN --- */
+#dropdown{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+}
+
+/* -------------------------------------------------------------- SIDER --- */
+#sider{
+	width: 100%;
+	height: 1100px;
+	background-color: #49ab81;
+}
+
+.container2{
+	width: 999px;
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin: 30px auto 0px auto;
+}
+
+.page{
+	position: relative;
+	width: 333px;
+	height: 300px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center	;
+	align-items: center;
+}
+
+.page:nth-child(odd){
+	background-color: #419873;
+}
+
+.icon{
+	width: 250px;
+	height: 30px;
+	padding: 0px 10px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.filename{
+	width: 250px;
+	height: 30px;
+	padding: 0px 10px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	font-weight: 400;
+	text-transform: lowercase;
+	color: #fff;
+}
+
+.description{
+	width: 250px;
+	height: 170px;
+	padding: 10px;
+	background-color: transparent;
+	margin-top: 10px;
+	text-align: justify;
+	font-family: 'Merriweather', serif;
+	font-size: 9pt;
+	color: #333;
+	line-height: 1.5;
+	overflow: auto;
+}
+
+/* -------------------------------------------------------------- RESSURSER --- */
+#credits{
+	width: 100%;
+	height: 350px;
+	background-color: #cdcdcd;
+}
+
+.container3{
+	width: 1003px;
+	height: 150px;
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	margin: 35px auto;
+}
+
+.source{
+	width: 333px;
+	height: 150px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center	;
+	align-items: center;
+	border-right: 2px dotted #333;
+}
+
+.source:last-child{
+	border:none;
+}
+
+.x{
+	color: #333;
+}
+
+.info{
+	width: 250px;
+	height: 50px;
+	padding: 10px;
+	background-color: transparent;
+	margin-top: 10px;
+	font-family: 'Merriweather', serif;
+	font-size: 9pt;
+	color: #333;
+	line-height: 1.5;
+}
+
+.info a{
+	color: #317256;
+	text-decoration: none;
+}
+
+.info a:hover{
+	border-bottom: 2px solid #317256;
+}
+
+/* -------------------------------------------------------------- FOOTER --- */
+.footer{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	background-color: #000;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.creds{
+	width: 700px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 8pt;
+	color: #aaa;
+}
+
+.back{
+	width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.back a{
+	height: 70px;
+	padding: 0px 20px;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 8pt;
+	color: #fff;
+	text-decoration: none;
+}
+
+.back a:hover{
+	background-color: #cdcdcd;
+	color: #000;
+}
