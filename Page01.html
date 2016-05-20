@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Historie</title>
+	<meta charset="UTF-8">
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,700,300' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+body{
+	margin: 0;
+}
+
+a{
+	color: #237f3d;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+a:hover{
+	color: #49ab81;
+	border-bottom: 1px solid #49ab81;
+}
+
+/* -------------------------------------------------------------- HEADER --- */
+.header{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 1);
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.title{
+	position: relative;
+	left: 0px;
+	width: 800px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.title a{
+	width: 150px;
+	height: 70px;
+	font-family: 'Merriweather';
+	font-weight: 900;
+	font-size: 25pt;
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.title a:hover{
+	color: #000;
+	background-color: #fff;
+}	
+
+.nav{
+	width: 200px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav_link{
+	width: 100px;
+	height: 70px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 10pt;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav_link:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+/* -------------------------------------------------------------- ENTRY --- */
+#entry{
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.text{
+	width: 600px;
+	height: auto;
+	padding: 10px;
+	margin: 0px auto;
+	background-color: #fff;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 12pt;
+	color: #333;
+	text-align: justify;
+}
+
+.overskrift{
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-size: 40pt;
+	color: #000;
+}
+
+.overskrift2{
+	font-family: 'Open Sans';
+	font-size: 10pt;
+	color: #555;
+}
+
+.photo{
+	margin: 0px auto 10px auto;
+	text-align: center;
+}
+
+.info{
+	width: 600px;
+	height: 50px;
+	padding: 10px;
+	margin: 10px auto 50px auto;
+	border-top: 3px solid #333;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.infopic{
+	width: 50px;
+	height: 50px;
+	background-image: url('https://67.media.tumblr.com/82df2a77dff4e9e855678a82ae443df8/tumblr_o79yrvtOAq1uhmwr6o1_400.png');
+	background-size: cover;
+	border-radius: 25px;
+	margin-right: 10px;
+}
+
+.infotext{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.infotext a{
+	font-family: 'Merriweather';
+	font-size: 12pt;
+}
+
+/* -------------------------------------------------------------- FOOTER --- */
+.footer{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	overflow: hidden;
+	background-color: #000;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.creds{
+	width: 700px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 8pt;
+	color: #aaa;
+}
+
+.menu{
+	width: 300px;
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.menu_link{
+	width: 100px;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 7pt;
+	text-transform: uppercase;
+}
+
+.menu_link a{
+	text-decoration: none;
+	color: #999;
+}
+
+.menu_link a:hover{
+	color: #fff;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="header">
+	<div class="title"> 
+		<a href="anon-draft-03.html#entry">TITLE</a> 
+	</div>
+	<div class="nav">
+		<a href="anonymouslogin.html" class="nav_link">Logg inn</a>
+	</div>
+</div>
+
+<!--
+style="background-image: url('http://67.media.tumblr.com/916caa563491946d778934f730a4d629/tumblr_nl157oA9ME1qzk1bko8_1280.jpg');"
+-->
+
+<div id="entry">
+	<div class="text">
+		<span class="overskrift">HISTORIE</span> <br>
+		<span class="overskrift2">Skrevet av anonymous 02146 15.mai 2016</span> <br> <br>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <a href="https://no.wikipedia.org/wiki/Anonymous">exercitation</a> ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="photo">
+		<img src="https://c2.staticflickr.com/8/7036/6856903841_ef12e87021_b.jpg" width="700"> <br>
+		<span class="overskrift2">We are Anonymous. We are Legion. We do not forgive. We do not forget. Expect us. 
+		Foto: <a href="https://www.flickr.com/photos/equinoxefr/6856903841/">Pierre (Rennes)</a> (CC BY 2.0)</span>
+	</div>
+	<div class="text">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<p><i>"Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</i></p>
+	</div>
+	<div class="info">
+		<div class="infopic"></div>
+		<div class="infotext">
+		<a href="anon-about.html">anonymous 02146</a>  <br>
+		<span class="overskrift2">Journalist og profesjonell DOTA 2 spiller</span>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="creds">
+		© 2016 Ananasmousse, Inc. All rights reserved. <br>
+		<!--Morra Di, Søstra Di and bikkjadi.no are trademarks, services marks, or registered trademarks of Morra di, Inc.-->
+	</div>
+	<div class="menu">
+		<div class="menu_link"><a href="anon-about.html">om siden</a></div>
+		<div class="menu_link"><a href="#">creds</a></div>
+		<div class="menu_link"><a href="#">kompetansemålet og temaet</a></div>
+	</div>
+</div>
+
+</body>
+</html>
