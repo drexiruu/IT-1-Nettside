@@ -1,0 +1,184 @@
+body{
+	margin: 0;
+}
+
+/* -------------------------------------------------------------- FLEX CONTAINERS --- */
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.aligned{
+	justify-content: center;
+	align-items: center;
+}
+
+/* -------------------------------------------------------------- BANNER --- */
+#banner{
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	background-image: url('https://images.alphacoders.com/475/475526.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.introtext{
+	position: absolute;
+	top: calc(50% + 170px);
+	width: 100%;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #fff;
+	text-align: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.up{
+	position: absolute;
+	top: calc(50% + 250px);
+	width: 100%;
+	text-align: center;
+}
+
+.up a{
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #fff;
+	padding: 20px;
+	border-radius: 30px;
+	border: 2px solid #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.up a:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+/* -------------------------------------------------------------- HEADER --- */
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+}
+
+.title{
+	width: 500px;
+	justify-content: flex-start;
+}
+
+.title a{
+	width: 150px;
+	height: 70px;
+	font-family: 'Merriweather';
+	font-weight: 900;
+	font-size: 2em;
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+
+.nav{
+	width: 500px;
+	justify-content: flex-end;
+}
+
+.nav a{
+	width: 100px;
+	height: 70px;
+	background-color: transparent;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+}
+
+.title a:hover, .nav a:hover{
+	color: #000;
+	background-color: #fff;
+}
+
+/* -------------------------------------------------------------- ENTRY --- */
+#entry{
+	width: 100%;
+	height: 1500px;
+	background-color: #fff;
+	justify-content: center;
+}
+
+.post{
+	width: 100%;
+	max-height: 700px;
+	background-color: #ccc;
+}
+
+.un{
+	width: 350px;
+	height: 350px;
+	background-color: #ff00ff;
+}
+
+.deux{
+	width: 600px;
+	height: 350px;
+	background-color: #00ff00;
+}
+
+/* -------------------------------------------------------------- FOOTER --- */
+#footer{
+	width: 100%;
+	height: 70px;
+	background-color: #000;
+}
+
+.creds{
+	width: 500px;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 8pt;
+	color: #aaa;
+}
+
+.menu{
+	width: 500px;
+	justify-content: flex-end;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #999;
+	font-family: 'Merriweather';
+	font-weight: 300;
+	font-size: 7pt;
+	text-transform: uppercase;
+	padding: 0px 20px;
+}
+
+.menu a:last-child{
+	padding-right: 0px;
+}
+
+.menu a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
