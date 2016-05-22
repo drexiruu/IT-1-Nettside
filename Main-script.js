@@ -1,3 +1,4 @@
+
 $(document).ready(function(){ 
 $(window).bind('scroll', function(){
  if($(window).scrollTop() >= $('#banner').height()-100 ){
@@ -41,7 +42,7 @@ $(document).ready(function($){
   $upwards.on('click', function(event){
     event.preventDefault();
     $('body,html').animate({
-      scrollTop: $('#entry').offset().top-70 ,
+      scrollTop: $('#entry').offset().top-0 ,
       }, scroll_top_duration
     );
   });
